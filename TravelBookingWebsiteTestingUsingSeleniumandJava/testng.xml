@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.goair.testcases.RoundTripTest"/>
+      <class name="com.goair.testcases.OneWayTripTest"/>
+      <class name="com.goair.testcases.MultiCityTest"/>
+      <class name="com.goair.testcases.FlightStatusTest"/>
+      <class name="com.goair.testcases.NegativeTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
